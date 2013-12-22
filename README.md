@@ -28,11 +28,11 @@
 
     return !Yii::app()->user->isGuest && Yii::app()->user->model->is_admin == 1;
 
-Безнес правило для пользователя
+Бизнесправило для пользователя
 
     return !Yii::app()->user->isGuest;
 
-Безнес правило для гостя
+Бизнесправило для гостя
 
     return Yii::app()->user->isGuest;
 
